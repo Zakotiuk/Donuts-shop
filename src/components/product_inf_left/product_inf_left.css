@@ -1,0 +1,30 @@
+.product_left_div{
+    display: flex;
+    flex-direction: row;
+}
+
+.product_left_div .description_div{
+    margin-left: 150px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.product_left_div .description_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18vw !important;
+    margin-top: 10vh;
+}
+
+.description_div .descp_span{
+    font-family: 'Oxygen', sans-serif;
+    width: 75%;
+    padding-top: 30px;
+}
+
+.small_bold_span{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    padding-top: 16px;
+}

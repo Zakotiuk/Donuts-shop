@@ -1,0 +1,84 @@
+.donut_map_div{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.map_img{
+    width: 550px;
+    margin-left: 120px;
+}
+
+.donut_map_div .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 12vw;
+    height: 60%;
+}
+
+.donut_map_div .info img{
+    height: 430px;
+    width: 590px;
+    object-fit: cover;
+    margin-top: 12vh;
+}
+
+.donut_map_div .info .text{
+    width: 320px;
+    padding-left: 30px;
+    position:absolute;
+    z-index: 2;
+    margin-top: 20px;
+}
+
+.play_btn{
+    width: 60px;
+    cursor: pointer;
+}
+
+.donut_map{
+    position: relative;
+}
+
+.play_btn.left{
+    position: absolute;
+    z-index: 2;
+    top: 70px;
+    left: 265px;
+}
+
+.play_btn.botom{
+    position: absolute;
+    z-index: 2;
+    left: 55%;
+    bottom: 40px;
+}
+
+.play_btn.right{
+    position: absolute;
+    z-index: 2;
+    top: 28%;
+    right: 11%;
+}
+
+
+.donut_map_div .info.hide{
+    opacity: 0;
+    display: none;
+  }
+
+.donut_map_div .info.show{
+    opacity: 1;
+    display: flex;
+    animation: show 1s forwards;
+  }
+  
+  @keyframes show {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+  .donut_map_div .overley .title{
+    margin-right: 10vw;
+  }

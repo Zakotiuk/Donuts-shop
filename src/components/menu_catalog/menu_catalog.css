@@ -1,0 +1,52 @@
+.menu_catalog_btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu_catalog{
+    margin-top: 90px;
+}
+
+.menu_catalog .head{
+    display: flex;
+    justify-content: space-between;   
+}
+.menu_catalog .head .right_part{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+.menu_catalog .head .text{
+    max-width: 460px;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.menu_catalog .head .btn{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #FAC389;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.menu_catalog .head .cart_btn{
+    background-color: #FFFAC3;
+}
+
+.menu_catalog .head .btn img{ 
+    height: 50px;
+    width: 50px;
+}
+
+.right_part .input_search{
+    width: 25vw;
+    border: none;
+    border-bottom: 1px solid black;
+    outline:none;
+}

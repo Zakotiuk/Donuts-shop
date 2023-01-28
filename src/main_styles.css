@@ -1,0 +1,34 @@
+.fnt_sz_15{
+    font-size: 15px;
+}
+.fnt_sz_17{
+    font-size: 17px;
+}
+.fnt_sz_20{
+    font-size: 20px;
+}
+.fnt_sz_25{
+    font-size: 25px;
+}
+.fnt_sz_30{
+    font-size: 30px;
+}
+.fnt_sz_35{
+    font-size: 35px;
+}
+.fnt_sz_40{
+    font-size: 40px;
+}
+.fnt_sz_50{
+    font-size: 50px;
+}
+.fnt_sz_60{
+    font-size: 60px;
+}
+.fnt_sz_90{
+    font-size: 90px;
+}
+.non_link_style{
+    text-decoration: none;
+    color: black;
+}

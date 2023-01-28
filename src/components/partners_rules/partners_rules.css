@@ -1,0 +1,37 @@
+.list_div{
+    padding: 90px 100px 0px 100px;
+}
+
+.list_div .chapter{
+    margin-top: 65px;
+}
+
+.list_div .vertt_line{
+    height: 350px;
+    border-left: 1px solid black;
+    margin-left: 42px;
+}
+
+.list_div .img_text{
+    display: flex;
+}
+
+.list_div .img_text img{
+    margin-top: 10px;
+    width: 58vw;
+    object-fit: cover;
+    height: 55vh;
+}
+
+.img_text .div_img{
+    width: 100vw;
+}
+
+.img_text .text{
+    z-index: 2;
+    width: 540px;
+    display: block;
+    position: absolute;
+    bottom: -55px;
+    right: 13vw;
+}

@@ -1,0 +1,58 @@
+.cir_div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.cir_div img{
+    border-radius: 0 20rem 20rem 0;
+}
+
+.img_text{
+    display: flex;
+    position: relative;
+}
+
+.hor_span_div{
+    display: flex;
+    transform: translate(-12.5px,0px)rotate(var(--rot)) translate(0,-105px)
+}
+
+.hor_span{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 70px;
+    float:left;
+}
+
+img{
+    width: 750px;
+    position: relative;
+}
+
+
+#textPath {
+    fill: none;
+}
+
+#textPathh{
+    fill: none;
+}
+  
+text {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.textt{
+    left: 98%;
+    position: absolute;
+    z-index: 2;
+}
+
+.cir_span{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 30px;
+}

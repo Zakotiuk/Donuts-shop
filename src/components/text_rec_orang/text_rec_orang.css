@@ -1,0 +1,15 @@
+.text_rec_orang{
+    background-color: #FAC389;
+    height: 43px;
+    width: 453px;
+    border-radius: 30rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.text_rec_orang img{
+    width: 17px;
+}

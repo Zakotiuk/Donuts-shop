@@ -1,0 +1,46 @@
+.cir_right_div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.cir_right_div img{
+    border-radius: 20rem 0 0 20rem;
+}
+
+.img_text{
+    display: flex;
+    justify-content: right;
+    position: relative;
+}
+
+.cir_right_div .textt{
+    transform: scale(-1, -1)
+
+}
+
+img{
+    width: 750px;
+    position: relative;
+}
+
+
+#right_textPath{
+    fill: none;
+}
+  
+text {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.cir_right_div .textt{
+    left: -150px;
+    position: absolute;
+    z-index: 2;
+}
+
+.cir_span{
+    text-transform: uppercase;
+    font-size: 30px;
+}

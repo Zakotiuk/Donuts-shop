@@ -1,0 +1,20 @@
+.footer_info_div{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 25px;
+}
+
+.footer_info_div .text{
+    text-align: left;
+}
+
+.footer_info_div .input{
+    border: none;
+    outline:none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}

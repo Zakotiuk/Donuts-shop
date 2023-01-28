@@ -1,0 +1,43 @@
+.footer_div{
+    padding-bottom: 100px;
+    margin: 0px 60px;
+    margin-top: 100px;
+}
+
+.footer_div .info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr;
+}
+
+.footer_div .about_div{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.net_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.net_btn{
+    margin-top: 10px;
+}
+
+.net_btn .btn_wh{
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border: 1px solid #FAC389;
+}
+
+.net_btn .btn_or{
+    width: 28px;
+    height: 28px;
+    background-color: #FAC389;
+    border: none;
+    margin: 0px 40px;
+}

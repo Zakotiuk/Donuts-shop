@@ -1,0 +1,7 @@
+.catalog_list_div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}

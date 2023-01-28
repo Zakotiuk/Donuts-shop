@@ -1,0 +1,46 @@
+.progress_bar_div{
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.circ{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FAC389;
+}
+
+.start_circ{
+    background: #FAC389;
+    border: 1px solid #FAC389;
+}
+
+.avr_circ{
+    background: #FFFFFF;
+    border: 1px solid #FAC389;
+}
+
+.gray_circ{
+    background: #F4F4F4;
+    border: 1px solid #FAC389;
+}
+
+.progress_bar_div hr{
+    width: 400px;
+    margin: 0px;
+    border-bottom: 1px;
+}
+
+.myColorHr{
+    border-color: #FAC389;    
+    border-bottom: 1px !important;
+}
+
+.sec_hr{
+    opacity: 0;
+}

@@ -1,0 +1,46 @@
+.head_part{
+    display: flex;
+}
+
+.head_part .head_part_img{
+    width: 250px;
+    object-fit: cover;
+    height: 100%;
+}
+
+.head_menu_img{
+    display: flex;
+    justify-content: space-between;
+}
+.head_menu{
+    display: flex;
+    flex-direction: column;
+}
+.head_menu .head_logo{
+    font-size: 90px;
+}
+.head_menu{
+    display: flex;
+    justify-content:space-around;
+}
+.head_menu .menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.menu .points{
+    margin-bottom: 36px;
+    cursor: pointer;
+}
+
+.head_menu_img .menu_img{
+    width: 64vw;
+    object-fit: cover;
+    margin-left: 90px; /* переписати */
+}
+
+.head_menu ul{
+    list-style-type: none;
+    margin: 0px 40px;
+}

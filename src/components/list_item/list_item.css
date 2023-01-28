@@ -1,0 +1,45 @@
+.list_item_div{
+    display: flex;
+}
+
+.vert_line{
+    height: 150px;
+    border-left: 1px solid black;
+}
+
+.indicator_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 120px;
+}
+
+.circle{
+    height: 80px;
+    width: 80px;
+    border: 3px solid #FAC389;
+    border-radius: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list_item_div .info{
+    display: flex;
+    align-items: center;
+}
+
+.list_item_div .info .title{
+    width: 35vw;
+    text-align: left;
+}
+
+.list_item_div .info .list{
+    text-align: left;
+}
+
+.hr_line{
+    margin: 0px;
+    margin-left: 10vw;
+}

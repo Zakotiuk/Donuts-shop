@@ -1,0 +1,10 @@
+.subm_div{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.subm_div .fnt_sz_20{
+    margin-right: 70px;
+}
