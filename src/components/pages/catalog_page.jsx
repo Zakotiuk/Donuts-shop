@@ -11,22 +11,28 @@ import { useMemo } from "react";
 
 const Catalog_page = () =>{
     const [donuts, setDonuts] = useState([]);
+    const [sortedDonuts, setSortedPosts] = useState([]);
     const [searchQuery, setSearchQuery] = useState([]);
-    const sortedDonuts = useMemo(() => {
-        console.log(searchQuery);
+
+    const sortDonuts = useMemo(() => {
+        searchQuery == "" ? fetchData() 
+        : setSortedPosts(donuts.filter( donut => donut.name.toLowerCase().includes(searchQuery)))
         return donuts.filter( donut => donut.name.toLowerCase().includes(searchQuery));
     }, [searchQuery, setSearchQuery]);
 
     useEffect(() => {
-        async function fetchData(){
-            const response = await DonutsServices.getDonuts();
-            setDonuts(response);
-        };
         fetchData();
-    }, [sortedDonuts]);
-    
+    }, []);
+
+    async function fetchData(){
+        const response = await DonutsServices.getDonuts();
+        console.log(response);
+        setDonuts(response);
+        setSortedPosts(response);
+    };
+
     const setClickSearch = () =>{
-        console.log("yes")
+        setSortedPosts(sortDonuts);
     }
     
     const setUsersSearchQuery = (query) => {
@@ -37,7 +43,7 @@ const Catalog_page = () =>{
             <Header></Header>
             <Head_part_catalog></Head_part_catalog>
             <Menu_catalog setUsersSearchQuery={setUsersSearchQuery} setClickSearch={setClickSearch}></Menu_catalog>
-            <Catalog_list donuts={donuts} sortedDonuts={sortedDonuts}></Catalog_list>
+            <Catalog_list donuts={sortedDonuts}></Catalog_list>
             <Footer></Footer>
         </div>
     )

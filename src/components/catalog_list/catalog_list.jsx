@@ -17,7 +17,6 @@ const Catalog_list = ({donuts}) =>{
     
     return(
         <div className="catalog_list_div">
-
             {
                 donuts.map((item, index) => 
                     <Catalog_item key={index} info={item}></Catalog_item>

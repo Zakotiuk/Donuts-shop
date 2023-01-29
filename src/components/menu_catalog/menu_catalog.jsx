@@ -33,7 +33,7 @@ const Menu_catalog = ({setUsersSearchQuery, setClickSearch}) =>{
             <div className="menu_catalog_btns">
                 {
                     categories.map((item, index) => 
-                        <Menu_btn_catalog item={item} isActive={index == 0 ? true : false}></Menu_btn_catalog>
+                        <Menu_btn_catalog key={index} item={item}></Menu_btn_catalog>
                     )
                 }
             </div>
